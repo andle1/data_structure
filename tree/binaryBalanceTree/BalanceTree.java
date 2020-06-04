@@ -1,4 +1,4 @@
-package aareview.tree.binaryBalanceTree;
+package tree.binaryBalanceTree;
 
 //平衡二叉树（AVL）
 //左子树和右子树的高度差的绝对值不超过一,并且本身也是二叉排序树.可以看做是对于二叉排序树的改进

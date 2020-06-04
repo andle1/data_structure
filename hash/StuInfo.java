@@ -1,4 +1,4 @@
-package aareview.hash;
+package hash;
 
 public class StuInfo {
     private int age;

@@ -1,4 +1,4 @@
-package aareview.list.doubleLinkedList;
+package list.doubleLinkedList;
 
 //双向链表
 //特点：一个指向前一个节点，一个指向后一个节点。尾节点指向头节点，头节点指向尾节点

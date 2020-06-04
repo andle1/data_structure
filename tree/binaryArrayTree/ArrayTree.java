@@ -1,4 +1,4 @@
-package aareview.tree.binaryArrayTree;
+package tree.binaryArrayTree;
 
 //完全二叉树
 //完全二叉树 所有叶子节点都在最后一层或者倒数第二层，且最后一层的叶子节点在左边连续，倒数第二层的叶子节点在右边连续

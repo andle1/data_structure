@@ -1,4 +1,4 @@
-package aareview.tree.binarySortTree;
+package tree.binarySortTree;
 
 //二叉排序树     也叫二叉查找树，二叉搜索树。BST。
 //对于二叉树中的任何一个非叶子节点，要求左子节点比当前节点值小，右子节点比当前节点值大

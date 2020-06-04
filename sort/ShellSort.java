@@ -1,4 +1,4 @@
-package aareview.sort;
+package sort;
 
 import java.util.Arrays;
 

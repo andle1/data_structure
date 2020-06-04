@@ -1,4 +1,4 @@
-package aareview.tree.binarySortTree;
+package tree.binarySortTree;
 
 import org.junit.Test;
 

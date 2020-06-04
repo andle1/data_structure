@@ -1,4 +1,4 @@
-package aareview.tree.huffmanTree;
+package tree.huffmanTree;
 
 public class TreeNode implements Comparable<TreeNode>{
     //节点的权

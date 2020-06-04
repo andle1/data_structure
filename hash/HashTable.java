@@ -1,6 +1,4 @@
-package aareview.hash;
-
-import hash.StuInfo;
+package hash;
 
 public class HashTable {
     //这里数组的长度根据实际需要调整

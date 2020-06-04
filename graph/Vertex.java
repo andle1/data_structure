@@ -1,4 +1,4 @@
-package aareview.graph;
+package graph;
 
 //顶点
 public class Vertex {

@@ -1,4 +1,4 @@
-package aareview.list.circularLinkedList;
+package list.circularLinkedList;
 
 //循环链表
 //特点：尾节点指向头节点

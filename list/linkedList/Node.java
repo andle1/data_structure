@@ -1,4 +1,4 @@
-package aareview.list.linkedList;
+package list.linkedList;
 
 //线性链表节点
 class Node {

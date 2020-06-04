@@ -1,4 +1,4 @@
-package aareview.graph;
+package graph;
 
 import org.junit.Test;
 
@@ -8,7 +8,7 @@ public class GraphTest {
 
     @Test
     public void addVertex() {
-        Vertex v1 = new Vertex("a");
+        graph.Vertex v1 = new Vertex("a");
         Vertex v2 = new Vertex("b");
         Vertex v3 = new Vertex("c");
         Vertex v4 = new Vertex("d");

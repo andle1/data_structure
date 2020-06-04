@@ -1,4 +1,4 @@
-package aareview.sort;
+package sort;
 
 //快速排序  （交换排序）
 

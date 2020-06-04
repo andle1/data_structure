@@ -1,4 +1,4 @@
-package aareview.list.circularLinkedList;
+package list.circularLinkedList;
 
 //循环链表节点
 class Node {

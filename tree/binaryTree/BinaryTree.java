@@ -1,4 +1,4 @@
-package aareview.tree.binaryTree;
+package tree.binaryTree;
 
 import java.util.LinkedList;
 import java.util.Queue;

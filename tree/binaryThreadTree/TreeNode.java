@@ -1,4 +1,4 @@
-package aareview.tree.binaryThreadTree;
+package tree.binaryThreadTree;
 
 public class TreeNode {
     //节点的权

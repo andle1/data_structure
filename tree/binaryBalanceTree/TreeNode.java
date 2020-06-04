@@ -1,4 +1,4 @@
-package aareview.tree.binaryBalanceTree;
+package tree.binaryBalanceTree;
 
 public class TreeNode {
     int value;

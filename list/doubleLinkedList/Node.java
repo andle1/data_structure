@@ -1,4 +1,4 @@
-package aareview.list.doubleLinkedList;
+package list.doubleLinkedList;
 
 //双向链表节点
 public class Node {

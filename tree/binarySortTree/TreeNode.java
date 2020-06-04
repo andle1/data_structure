@@ -1,4 +1,4 @@
-package aareview.tree.binarySortTree;
+package tree.binarySortTree;
 
 public class TreeNode {
     int value;

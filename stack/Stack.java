@@ -1,4 +1,4 @@
-package aareview.stack;
+package stack;
 
 public class Stack {
     //栈顶指针

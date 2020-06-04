@@ -1,4 +1,4 @@
-package aareview.tree.binaryBalanceTree;
+package tree.binaryBalanceTree;
 
 import org.junit.Test;
 

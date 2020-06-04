@@ -1,6 +1,7 @@
-package aareview.sort;
+package sort;
 
-import queue.MyQueue;
+
+import queue.Queue;
 
 import java.util.Arrays;
 
@@ -70,10 +71,10 @@ public class RadixSort {
         int maxLength = String.valueOf(max).length();
 
         //用于临时存储数据的队列数组
-        MyQueue[] temp = new MyQueue[10];
+        Queue[] temp = new Queue[10];
         //为队列数组赋值
         for (int i=0;i<temp.length;i++){
-            temp[i] = new MyQueue();
+            temp[i] = new Queue();
         }
         //根据最大长度的数决定比较的轮数,n是用来取个十百位的值
         for(int i=0,n=1;i<maxLength;i++,n*=10){
@@ -81,15 +82,16 @@ public class RadixSort {
             for(int j=0;j<arr.length;j++){
                 int ys = arr[j]/n%10;
                 //把当前的数字放入指定的数组中（这里的counts[ys]代表余数为ys的数组里面有几个数，开始是0）
-                temp[ys].add(arr[j]);
+                temp[ys].enQueue(arr[j]);
             }
             //记录取的元素需要放的位置
             int index = 0;
             //把所有队列中的数字取出来
             for(int k=0;k<temp.length;k++){
                 //记录数量的队列中当期余数记录的数量不为0
+                // 这里的 isEmpty 还未实现
                 while (!temp[k].isEmpty()){
-                    arr[index] = temp[k].poll();
+                    arr[index] = temp[k].deQueue();
                     index++;
                 }
             }

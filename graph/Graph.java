@@ -1,4 +1,4 @@
-package aareview.graph;
+package graph;
 
 import java.util.Stack;
 

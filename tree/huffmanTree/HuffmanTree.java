@@ -1,4 +1,4 @@
-package aareview.tree.huffmanTree;
+package tree.huffmanTree;
 
 //赫夫曼树   （最优二叉树）  按权值大小创建节点
 //最优二叉树：WPL最小的树

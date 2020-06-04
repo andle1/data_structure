@@ -1,4 +1,4 @@
-package aareview.list.linkedList;
+package list.linkedList;
 
 //线性链表
 //特点：增删快，查询慢

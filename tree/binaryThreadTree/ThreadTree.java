@@ -1,4 +1,4 @@
-package aareview.tree.binaryThreadTree;
+package tree.binaryThreadTree;
 
 import java.util.LinkedList;
 

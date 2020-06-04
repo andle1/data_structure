@@ -1,7 +1,7 @@
-package aareview.queue;
+package queue;
 
 
-import aareview.array.Array;
+import array.Array;
 
 import java.util.ArrayList;
 
@@ -59,5 +59,10 @@ public class Queue {
         for (int i=front;i!=rear;i=(i+1)%n){
             System.out.println(data[i]);
         }
+    }
+
+    // 这里队列还没有实现
+    public boolean isEmpty() {
+        return true;
     }
 }

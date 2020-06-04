@@ -1,7 +1,7 @@
-package aareview.hash;
+package hash;
 
 import hash.HashTable;
-import hash.StuInfo;
+
 
 public class TestHashTable {
     //直接订址法

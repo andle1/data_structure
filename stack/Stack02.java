@@ -1,4 +1,4 @@
-package aareview.stack;
+package stack;
 
 //仅仅单纯用数组实现的栈
 public class Stack02 {
